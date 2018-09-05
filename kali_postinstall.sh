@@ -1,5 +1,5 @@
 #!/bin/bash
-# Kali Postinstall script v0.1 by @rosonsec
+# Kali Postinstall script by rosonsec
 
 # Kali Rolling Repository
 if ! grep -q kali-rolling /etc/apt/sources.list
