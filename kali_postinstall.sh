@@ -16,9 +16,11 @@ gsettings set org.gnome.desktop.session idle-delay 0
 # Metasploit autostart
 service postgresql start
 update-rc.d postgresql enable
+
+# Metasploit DB init
 msfdb init
-msfconsole
-db_rebuild_cache
+#Todo
+#msfconsole -x db_rebuild_cache;exit
 
 # Vim settings
 echo "set tabstop=4" >> /etc/vim/vimrc
