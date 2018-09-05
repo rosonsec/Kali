@@ -20,5 +20,11 @@ msfdb init
 msfconsole
 db_rebuild_cache
 
+# Vim settings
+echo "set tabstop=4" >> /etc/vim/vimrc
+echo "set shiftwidth=4" >> /etc/vim/vimrc
+echo "set softtabstop=4" >> /etc/vim/vimrc
+echo "set expandtab" >> /etc/vim/vimrc
+
 # System restart
 reboot
