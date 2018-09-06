@@ -28,5 +28,10 @@ echo "set shiftwidth=4" >> /etc/vim/vimrc
 echo "set softtabstop=4" >> /etc/vim/vimrc
 echo "set expandtab" >> /etc/vim/vimrc
 
+# Adding wordlists
+cd /usr/share
+git clone https://github.com/danielmiessler/SecLists
+mv SecLists seclists
+
 # System restart
 reboot
