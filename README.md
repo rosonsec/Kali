@@ -1,10 +1,14 @@
 # Kali postinstall script
-
-Kali Linux Repositories
+<ul>
+<p><li>Kali Linux Repositories<br>
 https://docs.kali.org/general-use/kali-linux-sources-list-repositories
 
-Kali Linux VirtualBox Guest
+<li>Kali Linux VirtualBox Guest<br>
 https://docs.kali.org/general-use/kali-linux-virtual-box-guest
 
-Vim settings
+<li>Vim settings<br>
 https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878983
+
+<li>Wordlists<br>
+https://github.com/danielmiessler/SecLists
+</ul>
