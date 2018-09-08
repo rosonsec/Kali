@@ -13,6 +13,10 @@ apt-get install -y virtualbox-guest-x11
 # Settings -> Privacy -> Screen Lock -> Off
 gsettings set org.gnome.desktop.session idle-delay 0
 
+# Settings -> Power -> Automatic Suspend -> Off
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-ac-type 'nothing'
+gsettings set org.gnome.settings-daemon.plugins.power sleep-inactive-battery-type 'nothing'
+
 # Metasploit autostart
 service postgresql start
 update-rc.d postgresql enable
