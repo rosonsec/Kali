@@ -1,18 +1,23 @@
 # Kali postinstall script
 <ul>
-<p><li>Kali Linux Repositories<br>
+<p><li>Check Kali Linux Repositories<br>
 https://docs.kali.org/general-use/kali-linux-sources-list-repositories
 
-<li>Kali Linux VirtualBox Guest<br>
+<li>Install Kali Linux VirtualBox Guest<br>
 https://docs.kali.org/general-use/kali-linux-virtual-box-guest
 
-<li>Vim settings<br>
+<li>Configure and initialize Metasploit<br>
+  
+<li>Configure Vim<br>
 https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces/1878983
-
-<li>Wordlists<br>
+</ul>
+<li>Add Wordlists<br>
 https://github.com/danielmiessler/SecLists
 </ul>
-
+<li>Disable Screen Lock</li>
+<li>Disable Automatic Suspend</li>
+https://askubuntu.com/questions/1014965/automatic-suspend-computer-will-suspend-very-soon-because-of-inactivity-ho/1014968
+</ul>
 
 
 # To Do
