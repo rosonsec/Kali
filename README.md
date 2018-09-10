@@ -23,3 +23,8 @@ https://askubuntu.com/questions/1014965/automatic-suspend-computer-will-suspend-
 # To Do
 <p><li>Disable Firefox Captive Portal<br>
 https://support.mozilla.org/es/questions/1157121
+
+
+# Misc
+<li>Change virtual machine icon in Virtual Box with a Windows host<br>
+VBoxManage.exe" modifyvm "Kali 2018.3" --iconfile Kali.png
