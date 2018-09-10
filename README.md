@@ -29,5 +29,5 @@ https://support.mozilla.org/es/questions/1157121
 # Misc
 <ul>
 <li>Change virtual machine icon in Virtual Box with a Windows host<br>
-VBoxManage.exe" modifyvm "Kali 2018.3" --iconfile Kali.png
+  <pre>VBoxManage.exe" modifyvm "Kali 2018.3" --iconfile Kali.png</pre>
 </ul>
