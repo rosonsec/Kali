@@ -37,5 +37,8 @@ cd /usr/share
 git clone https://github.com/danielmiessler/SecLists
 mv SecLists seclists
 
+# Installing additional software
+apt-get install terminator
+
 # System restart
 reboot
