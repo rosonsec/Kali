@@ -38,7 +38,7 @@ git clone https://github.com/danielmiessler/SecLists
 mv SecLists seclists
 
 # Installing additional software
-apt-get install terminator
+apt-get install terminator -y
 
 # System restart
 reboot
