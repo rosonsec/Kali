@@ -39,6 +39,7 @@ mv SecLists seclists
 
 # Installing additional software
 apt-get install terminator -y
+apt-get install gobuster -y
 
 # System restart
 reboot
