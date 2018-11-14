@@ -37,9 +37,8 @@ cd /usr/share
 git clone https://github.com/danielmiessler/SecLists
 mv SecLists seclists
 
-# Installing additional software
-apt-get install terminator -y
-apt-get install gobuster -y
+# Configuration files
+wget --no-check-certificate https://raw.githubusercontent.com/rosonsec/Kali/master/conf/terminator.conf -O ~/.config/terminator/config
 
 # System restart
 reboot
