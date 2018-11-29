@@ -24,6 +24,7 @@ https://askubuntu.com/questions/1014965/automatic-suspend-computer-will-suspend-
 <ul>
 <li>Disable Firefox Captive Portal<br>
 https://support.mozilla.org/es/questions/1157121
+<li>Configure alias for bash. File ~/.bashrc</li>
 </ul>
 
 # Misc
