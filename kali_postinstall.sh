@@ -37,7 +37,8 @@ cd /usr/share
 git clone https://github.com/danielmiessler/SecLists
 mv SecLists seclists
 
-# Configuration files
+# Terminator
+apt-get install terminator
 wget --no-check-certificate https://raw.githubusercontent.com/rosonsec/Kali/master/conf/terminator.conf -O ~/.config/terminator/config
 
 # System restart
