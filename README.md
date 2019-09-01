@@ -25,6 +25,7 @@ https://askubuntu.com/questions/1014965/automatic-suspend-computer-will-suspend-
 <li>Disable Firefox Captive Portal<br>
 https://support.mozilla.org/es/questions/1157121
 <li>Configure alias for bash. File ~/.bashrc</li>
+<li>Identification of Vmware/Virtualbox to install the appropriate guest tools</li>
 </ul>
 
 # Misc
@@ -32,3 +33,4 @@ https://support.mozilla.org/es/questions/1157121
 <li>Change virtual machine icon in Virtual Box with a Windows host<br>
   <pre>VBoxManage.exe modifyvm "Kali Linux 2018.3" --iconfile Kali1.png</pre>
 </ul>
+
