@@ -6,9 +6,14 @@ if ! grep -q kali-rolling /etc/apt/sources.list
   then echo "deb http://http.kali.org/kali kali-rolling main contrib non-free" >> /etc/apt/sources.list
 fi
 
-# VirtualBox Guest Additions
 apt-get update 
-apt-get install -y virtualbox-guest-x11
+
+# VirtualBox Guest Additions
+#apt-get install -y virtualbox-guest-x11
+
+# Open Vmware Tools
+apt-get install -y open-vm-tools
+
 
 # Settings -> Privacy -> Screen Lock -> Off
 gsettings set org.gnome.desktop.session idle-delay 0
