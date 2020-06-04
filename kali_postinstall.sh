@@ -34,10 +34,7 @@ sudo msfdb init
 #msfconsole -x db_rebuild_cache;exit
 
 # Vim user settings
-echo "set tabstop=4" >> ~/.vimrc
-echo "set shiftwidth=4" >> ~/.vimrc
-echo "set softtabstop=4" >> ~/.vimrc
-echo "set expandtab" >> ~/.vimrc
+wget --no-check-certificate https://raw.githubusercontent.com/rosonsec/Kali/master/conf/.vimrc -O ~/.vimrc
 
 # Terminator
 sudo apt-get install -y terminator
